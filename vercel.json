@@ -6,6 +6,7 @@
   },
   "routes": [
     { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 404, "dest": "/api/404.php" }
     { "src": "/farming", "dest": "/api/farming.php" },
     { "src": "/litepaper", "dest": "/assets/litepaper/TOKIE_litepaper.pdf" },
     { "src": "/info", "dest": "/api/info.php" },
