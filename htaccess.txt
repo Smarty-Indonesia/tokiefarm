@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteRule ^/?$ /index.php
+RewriteRule ^roadmap/?$ /roadmap.php
+RewriteRule ^farming/?$ /farming.php
+RewriteRule ^pools/?$ /pools.php
+RewriteRule ^referral/?$ /referral.php
+RewriteRule ^nft/?$ /nft.php
+RewriteRule ^info/?$ /info.php
+RewriteRule ^litepaper/?$ /assets/litepaper/TOKIE_litepaper.pdf
+
+#Far Future Expires Header
+<FilesMatch "\.(gif|png|jpg|svg|js|css|scss|pdf)$">
+    ExpiresActive On
+    ExpiresDefault "modification"
+</FilesMatch>

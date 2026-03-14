@@ -1,0 +1,27 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.9.0"
+    }
+  },
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/farming", "dest": "/api/farming.php" },
+    { "src": "/litepaper", "dest": "/assets/litepaper/TOKIE_litepaper.pdf" },
+    { "src": "/info", "dest": "/api/info.php" },
+    { "src": "/nft", "dest": "/api/nft.php" },
+    { "src": "/pools", "dest": "/api/pools.php" },
+    { "src": "/privacy-policy", "dest": "/api/privacy-policy.php" },
+    { "src": "/referral", "dest": "/api/referral.php" },
+    { "src": "/roadmap", "dest": "/api/roadmap.php" },
+    { "src": "/terms-condition", "dest": "/api/terms-condition.php" },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1.php"
+    },
+    {
+      "src": "/((?!assets/|css/|js/|favicon.ico).*)",
+      "dest": "/api/index.php"
+    }
+  ]
+}
