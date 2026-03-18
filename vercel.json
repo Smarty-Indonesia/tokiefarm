@@ -6,8 +6,7 @@
   },
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/", "dest": "/api/index.php" },
-    { "src": "/404", "dest": "/api/404.php" },
+    { "src": "/(.*)", "status": 404, "dest": "/api/404.php" }
     { "src": "/farming", "dest": "/api/farming.php" },
     { "src": "/litepaper", "dest": "/assets/litepaper/TOKIE_litepaper.pdf" },
     { "src": "/info", "dest": "/api/info.php" },
@@ -17,6 +16,10 @@
     { "src": "/referral", "dest": "/api/referral.php" },
     { "src": "/roadmap", "dest": "/api/roadmap.php" },
     { "src": "/terms-condition", "dest": "/api/terms-condition.php" },
-    { "src": "/(.*)", "dest": "/api/index.php" }
+    {
+      "src": "/((?!assets/|css/|js/|favicon.ico).*)",
+      "dest": "/api/index.php"
+    }
   ]
 }
+
