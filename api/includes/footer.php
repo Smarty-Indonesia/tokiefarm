@@ -1,21 +1,5 @@
     <!-- Start Footer Area  -->
     <div class="rn-footer-area footer-for-left-sticky-header pr--40">
-        <!-- <div class="footer-top">
-            <div class="container">
-            <h1 class="title text-center">Partners</h1>
-                <div class="row">
-                    <ul class="nu-brand-area">
-                        <li><a href="https://bscscan.com/" target="_blank"><img src="../assets/images/partner/bscscan.png" alt="BSCScan"></li>
-                        <li><a href="https://pancakeswap.finance/" target="_blank"><img src="../assets/images/partner/pancakeswap.png" alt="Pancakeswap"></li>
-                        <li><a href="https://spy-token.io/" target="_blank"><img src="../assets/images/partner/smartypay.png" alt="Smarty Pay"></li>
-                        <li><a href="https://smartyindonesia.co.id/" target="_blank"><img src="../assets/images/partner/smartyindonesia.png" alt="Smarty Indonesia"></li>
-                        <li><a href="https://acy.finance" target="_blank"><img src="../assets/images/partner/acy.png" alt="ACY"></li>
-                        <li><a href="https://www.certik.com" target="_blank"><img src="../assets/images/partner/certik.png" alt="Certik"></li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
