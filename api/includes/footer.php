@@ -25,7 +25,7 @@
                         <a href="https://www.youtube.com/channel/UCXKJBXUbRcbJDXOH9T-7W7w" target="_blank">
                              <img src="../assets/images/icons/youtube.png" width="35">
                         </a>
-                        <a href="https://www.linkedin.com/in/yantonwirawan/" target="_blank">
+                        <a href="#" target="_blank">
                              <img src="../assets/images/icons/linkedin.png" width="35">
                         </a>
                     </div>
